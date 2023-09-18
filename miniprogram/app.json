@@ -1,0 +1,38 @@
+{
+    "pages": [
+        "pages/funcList/funcList",
+        "pages/self/self",
+        "pages/home/home"
+    ],
+    "tabBar": {
+        "selectedColor": "#5398E6",
+        "list": [
+          {
+            "pagePath": "pages/home/home",
+            "text": "咨询",
+            "iconPath": "./image/tabBar/ask.png",
+            "selectedIconPath": "./image/tabBar/ask-active.png"
+          },
+          {
+            "pagePath": "pages/funcList/funcList",
+            "text": "功能",
+            "iconPath": "./image/tabBar/pow.png",
+            "selectedIconPath": "./image/tabBar/pow-active.png"
+          },
+          {
+            "pagePath": "pages/self/self",
+            "text": "我的",
+            "iconPath": "./image/tabBar/my.png",
+            "selectedIconPath": "./image/tabBar/my-active.png"
+          }
+      ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

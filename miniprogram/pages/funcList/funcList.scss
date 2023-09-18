@@ -1,0 +1,20 @@
+.func-pic {
+    width: 100%;
+    height: 460rpx;
+    background-color: #cccccc;
+}
+.func-btn {
+    padding: 20rpx;
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: center;
+    justify-content: flex-start;
+    button {
+        width: 40%;
+        height: 160rpx;
+        border: none !important;
+        margin-bottom: 10px;
+        background-color: #cccccc !important;
+        line-height: 130rpx;
+    }
+}

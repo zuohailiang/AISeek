@@ -1,0 +1,12 @@
+<view>
+    <view class="func-pic">
+        
+    </view>
+    <view class="func-btn">
+        <button type="default" plain="true">按钮</button>
+        <button type="default" plain="true">按钮</button>
+        <button type="default" plain="true">按钮</button>
+        <button type="default" plain="true">按钮</button>
+        <button type="default" plain="true">按钮</button>
+    </view>
+</view>

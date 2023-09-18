@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "功能",
+    "usingComponents": {
+        "mp-icon": "weui-miniprogram/icon/icon"
+     }
+}

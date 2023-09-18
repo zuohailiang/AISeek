@@ -1,0 +1,25 @@
+.conversation-box {
+    height: 100vh;
+    background-color: #cccccc;
+    .conversation-list {
+        width: 100%;
+        height: calc(100% - 104rpx);
+    }
+    .conversation-input {
+        height: 104rpx;
+        padding: 0 20rpx;
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        .input-style {
+            background-color: #cccccc;
+            padding: 10rpx;
+            font-size: 28rpx;
+        }
+        .send-btn {
+            width: 40rpx;
+            height: 40rpx;
+            margin-left: 10rpx;
+        }
+    }
+}

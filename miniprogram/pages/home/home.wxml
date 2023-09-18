@@ -1,0 +1,12 @@
+<view class="conversation-box">
+    <view class="conversation-list">
+        <scroll-view scroll-y="true" style="height: 100%"> 
+            <view wx:for="{{[1,2,3,4,5,6,5,7,0,1,2,3,4,5,6,5,7,0,1,2,3,4,5,6,5,7,0,1,2,3,4,5,6,5,7,0,1,2,3,4,5,6,5,7,0,1,2,3,4,5,6,5,7,0,1,2,3,4,5,6,5,7,0,1,2,3,4,5,6,5,7,0]}}" wx:key="i">asdasdasdsa{{i}}</view>
+            
+        </scroll-view>
+    </view>
+    <view class="conversation-input">
+        <input class="weui-input input-style" placeholder-style="color:#F76260"  cursor-spacing="40" confirm-type='send' placeholder="占位符字体是红色的" />
+        <image src="../../image/home/send.svg" alt="" class="send-btn" />
+    </view>
+</view>
