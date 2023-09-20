@@ -1,25 +1,99 @@
 .conversation-box {
     height: 100vh;
-    background-color: #cccccc;
+    // background-color: #cccccc;
+    font-size: 28rpx;
+    // position: relative;
     .conversation-list {
         width: 100%;
-        height: calc(100% - 104rpx);
+        // height: calc(100% - 104rpx);
+        .conversation-window {
+            padding: 10rpx;
+            .conversation-com {
+                display: flex;
+                .dialog {
+                    max-width: 80%;
+                    display: flex;
+                    align-items: flex-start;
+                    .dialog-column {
+                        width: calc(100% - 140rpx);
+                        padding: 20rpx;
+                        border-radius: 10rpx;
+                        background-color: #5C6CFF;
+                        color: #ffffff;
+                        word-wrap: break-word;
+                        position: relative;
+                        .conversation-arrow-left {
+                            width: 0;
+                            height: 0;
+                            border-right: 10rpx solid #5C6CFF;
+                            border-left: 10rpx solid transparent;
+                            border-top: 10rpx solid transparent;
+                            border-bottom: 10rpx solid transparent;
+                            position: absolute;
+                            top: 30rpx;
+                            left: -18rpx;
+                        }
+                        .conversation-arrow-right {
+                            width: 0;
+                            height: 0;
+                            border-left:10rpx solid #5C6CFF;
+                            border-right: 10rpx solid transparent;
+                            border-top: 10rpx solid transparent;
+                            border-bottom: 10rpx solid transparent;
+                            position: absolute;
+                            top: 28rpx;
+                            right: -18rpx;
+                        }
+                    }
+                    .dialog-header {
+                        width: 80rpx;
+                        height: 80rpx;
+                        // background-color: red;
+                        // margin-left: 20rpx;
+                        border-radius: 10rpx;
+                        image {
+                            width: 80rpx;
+                            height: 80rpx;
+                        }
+                    }
+                    .header-right {
+                        margin-left: 20rpx;
+                    }
+                    .header-left {
+                        margin-right: 20rpx;
+                    }
+                }
+            }
+            .conversation-ask {
+                flex-direction: row-reverse;
+            }
+            .conversation-res {
+                margin-top: 20rpx;
+            }
+        }
     }
     .conversation-input {
-        height: 104rpx;
+        // position: absolute;
+        // bottom: 0;
+        // left: 0;
+        // width: calc(100% - 40rpx);
+        height: 103rpx;
         padding: 0 20rpx;
         display: flex;
         align-items: center;
-        background-color: #ffffff;
+        background-color: #F5F5F5;
+        border-top: 1rpx solid #CCCCCC;
         .input-style {
-            background-color: #cccccc;
+            width: 100%;
+            background-color: #ffffff;
             padding: 10rpx;
             font-size: 28rpx;
+            border-radius: 8rpx;
         }
         .send-btn {
-            width: 40rpx;
-            height: 40rpx;
-            margin-left: 10rpx;
+            width: 36rpx;
+            height: 36rpx;
+            margin-left: 20rpx;
         }
     }
 }

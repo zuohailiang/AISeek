@@ -1,4 +1,6 @@
 {
-    "navigationBarTitleText": "在线咨询",
-    "usingComponents": {}
+    "navigationBarTitleText": "用药咨询",
+    "usingComponents": {
+        
+    }
 }

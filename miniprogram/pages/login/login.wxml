@@ -1,0 +1,18 @@
+<view class="ly-car-login">
+    <block wx:if="{{canIUse}}">
+        <view class="login-header">
+            <image src="../../image/login/wechart.svg"></image>
+        </view>
+        <view class="login-content">
+            <view>申请获取以下权限</view>
+            <text>获得你的公开信息(昵称, 头像等)</text>
+        </view>
+        <view class="login-button">
+            <button type="default" class="button-cancel">拒绝</button>
+            <button type="primary" bindtap="getUserInfo">授权</button>
+        </view>
+    </block>
+    <block wx:else>
+        <view>请升级微信版本</view>        
+    </block>
+</view>
